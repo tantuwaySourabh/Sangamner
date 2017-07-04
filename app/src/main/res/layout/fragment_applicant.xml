@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sangamner.ApplicantFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginStart="30dp"
+       android:layout_marginEnd="30dp"
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="NAME"
+           android:layout_marginTop="40dp"
+           android:layout_gravity=""
+           android:textColor="@color/colorAccent"/>
+       <com.sangamner.CustomEditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="NAME"
+           android:layout_marginTop="20dp"
+           android:textSize="12sp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="MOBILE NUMBER"
+           android:layout_marginTop="30dp"
+           android:textColor="@color/colorAccent"/>
+       <com.sangamner.CustomEditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="MOBILE NUMBER"
+           android:textSize="12sp"
+           android:layout_marginTop="20dp"
+           />
+
+       <com.sangamner.CustomTextView
+           android:id="@+id/btn_submit"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:background="@drawable/green_rounded_solid_bg"
+           android:clickable="true"
+           android:focusable="true"
+           android:foreground="?attr/selectableItemBackground"
+           android:gravity="center"
+           android:paddingBottom="12dp"
+           android:paddingLeft="15dp"
+           android:paddingRight="15dp"
+           android:paddingTop="12dp"
+           android:text="SUBMIT"
+           android:layout_marginTop="40dp"
+           android:textColor="#FFFFFF"
+           android:textSize="15sp"
+           />
+
+
+   </LinearLayout>
+</FrameLayout>

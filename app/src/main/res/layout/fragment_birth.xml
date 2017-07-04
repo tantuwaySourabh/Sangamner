@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sangamner.ApplicantFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE OF BIRTH"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_vertical"
+
+            android:textColor="@color/colorAccent"/>
+        <com.sangamner.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MM/DD/YY"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorAccent"/>
+        <com.sangamner.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NAME"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FATHER'S NAME"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorAccent"/>
+        <com.sangamner.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FATHER'S NAME"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOTHER'S NAME"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorAccent"/>
+        <com.sangamner.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MOTHER'S NAME"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADHAR CARD NUMBER"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorAccent"/>
+        <com.sangamner.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ADHAAR CARD NUMBER"
+            android:textSize="10sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GENDER"
+                android:layout_marginRight="60dp"
+                android:textColor="@color/colorAccent"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEMALE"
+                    android:layout_marginRight="40dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MALE"/>
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT->"
+            android:layout_gravity="end"
+            android:textColor="@color/colorAccent"/>
+
+
+
+    </LinearLayout>
+</FrameLayout>
+
